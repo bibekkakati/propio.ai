@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verification Code</title>
+</head>
+
+<body style="margin:0;padding:0;background-color:#f5f7fa;font-family:Inter, Helvetica, Arial, sans-serif;">
+
+    <!-- Preheader (hidden preview text) -->
+    <div style="display:none;max-height:0;overflow:hidden;opacity:0;">
+        Your Propio verification code is {{otp}}. It expires in {{expiry_in_mins}} minutes.
+    </div>
+
+    <table width="100%" cellspacing="0" cellpadding="0" style="background-color:#f5f7fa;padding:24px 12px;">
+        <tr>
+            <td align="center">
+
+                <table width="600" cellspacing="0" cellpadding="0"
+                    style="max-width:600px;width:100%;background:#ffffff;border:1px solid #E5E5E5;border-radius:8px;">
+                    <tr>
+                        <td style="padding:32px 24px;text-align:center;">
+                            <div style="font-size:22px;font-weight:700;letter-spacing:4px;margin-bottom:24px;">
+                                PROPIO
+                            </div>
+
+                            <!-- Card -->
+                            <table width="100%" cellspacing="0" cellpadding="0"
+                                style="border:1px solid #E5E5E5;border-radius:8px;">
+                                <tr>
+                                    <td style="padding:32px 20px;text-align:center;">
+
+                                        <h2 style="margin:0 0 16px;font-size:18px;font-weight:600;color:#111;">
+                                            Verification Code
+                                        </h2>
+
+                                        <p style="margin:0 0 24px;font-size:14px;color:#555;line-height:1.6;">
+                                            Enter the one-time password below to verify your account:
+                                        </p>
+
+                                        <div
+                                            style="font-size:26px;font-weight:700;letter-spacing:6px;color:#004DFD;margin-bottom:24px;">
+                                            {{otp}}
+                                        </div>
+
+                                        <p style="margin:0;font-size:13px;color:#555;line-height:1.5;">
+                                            This code expires in
+                                            <span style="color:#004DFD;font-weight:600;">{{expiry_in_mins}}
+                                                minutes</span>.
+                                        </p>
+
+                                        <hr style="border:none;border-top:1px dashed #CECECE;margin:28px 0;">
+
+                                        <p style="margin:0 0 24px;font-size:14px;color:#555;line-height:1.6;">
+                                            If you have any questions, contact us at
+                                            <a href="mailto:support@propiohq.com"
+                                                style="color:#006CFF;text-decoration:none;">
+                                                support@propiohq.com
+                                            </a>.
+                                        </p>
+
+                                        <p style="margin:0;font-size:13px;color:#777;">
+                                            Have a great day,<br>
+                                            <strong>Team Propio</strong>
+                                        </p>
+
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
